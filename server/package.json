@@ -12,11 +12,18 @@
   "dependencies": {
     "@fastify/cors": "^8.5.0",
     "@prisma/client": "^5.7.1",
-    "fastify": "^4.25.2"
+    "dayjs": "^1.11.10",
+    "fastify": "^4.25.2",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^10.6.1",
     "prisma": "^5.7.1",
+    "prisma-erd-generator": "^1.11.2",
     "tsx": "^4.7.0",
     "typescript": "^5.3.3"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
   }
 }
